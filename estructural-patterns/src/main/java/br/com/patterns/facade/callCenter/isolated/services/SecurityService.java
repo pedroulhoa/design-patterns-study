@@ -1,9 +1,9 @@
-package br.com.patterns.facade.callCenter.services;
+package br.com.patterns.facade.callCenter.isolated.services;
+
+import br.com.patterns.facade.callCenter.isolated.model.Card;
+import br.com.patterns.facade.callCenter.isolated.model.Register;
 
 import java.util.List;
-
-import br.com.patterns.facade.callCenter.model.Card;
-import br.com.patterns.facade.callCenter.model.Register;
 
 public class SecurityService {
 	private CardService cardService;

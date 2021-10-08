@@ -1,4 +1,4 @@
-package br.com.patterns.facade.callCenter.services;
+package br.com.patterns.facade.callCenter.standard.services;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.com.patterns.facade.callCenter.model.Card;
-import br.com.patterns.facade.callCenter.model.Register;
+import br.com.patterns.facade.callCenter.standard.model.Card;
+import br.com.patterns.facade.callCenter.standard.model.Register;
 
 public class RegisterService {
 	private Map<Long, List<Register>> memory;

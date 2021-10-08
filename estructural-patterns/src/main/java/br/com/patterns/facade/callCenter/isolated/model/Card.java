@@ -1,9 +1,9 @@
-package br.com.patterns.facade.callCenter.model;
+package br.com.patterns.facade.callCenter.isolated.model;
 
 public class Card {
 	private Long userNumber;
 	private Long cardNumber;
-	
+
 	public Card(Long userNumber, Long cardNumber) {
 		this.userNumber = userNumber;
 		this.cardNumber = cardNumber;

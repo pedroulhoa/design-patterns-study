@@ -1,9 +1,9 @@
-package br.com.patterns.facade.callCenter.services;
+package br.com.patterns.facade.callCenter.standard.services;
 
 import java.util.List;
 
-import br.com.patterns.facade.callCenter.model.Card;
-import br.com.patterns.facade.callCenter.model.Register;
+import br.com.patterns.facade.callCenter.standard.model.Card;
+import br.com.patterns.facade.callCenter.standard.model.Register;
 
 public class PaymentService {
 	private RegisterService registerService;
