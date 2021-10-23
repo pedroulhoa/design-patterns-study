@@ -1,20 +1,19 @@
 package br.com.patterns.flyweight.map.model;
 
 public class PixelType {
+    private final Character character;
+    private final Integer treasureReward;
 
-	private Character character;
-	private Integer treasureReward;
+    public PixelType(Character character, Integer treasureReward) {
+        this.character = character;
+        this.treasureReward = treasureReward;
+    }
 
-	public PixelType(Character character, Integer treasureReward) {
-		this.character = character;
-		this.treasureReward = treasureReward;
-	}
+    public Character getCharacter() {
+        return character;
+    }
 
-	public Character getCharacter() {
-		return character;
-	}
-	
-	public Integer getTreasureReward() {
-		return treasureReward;
-	}
+    public Integer getTreasureReward() {
+        return treasureReward;
+    }
 }
